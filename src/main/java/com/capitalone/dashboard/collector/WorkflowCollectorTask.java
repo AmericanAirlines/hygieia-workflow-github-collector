@@ -88,7 +88,7 @@ public class WorkflowCollectorTask extends CollectorTask<Collector> {
     @Override
     public Collector getCollector() {
         Collector protoType = new Collector();
-        protoType.setName("GitWorkflow");
+        protoType.setName("GitHub"); // This refers DevOps Tool
         protoType.setCollectorType(CollectorType.GitWorkflow);
         protoType.setOnline(true);
         protoType.setEnabled(true);
